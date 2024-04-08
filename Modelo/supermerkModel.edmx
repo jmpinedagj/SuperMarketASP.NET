@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="supermerkModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="productos">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="nombre_Producto" Type="char" MaxLength="50" />
+          <Property Name="descripcion_Producto" Type="char" MaxLength="50" />
+          <Property Name="unid_Medida" Type="char" MaxLength="50" />
+          <Property Name="peso" Type="int" />
+          <Property Name="precio" Type="int" />
+        </EntityType>
+        <EntityContainer Name="supermerkModelStoreContainer">
+          <EntitySet Name="productos" EntityType="Self.productos" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="supermerkModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="productos">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="nombre_Producto" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+          <Property Name="descripcion_Producto" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+          <Property Name="unid_Medida" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+          <Property Name="peso" Type="Int32" />
+          <Property Name="precio" Type="Int32" />
+        </EntityType>
+        <EntityContainer Name="supermerkEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="productos" EntityType="Self.productos" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="supermerkModelStoreContainer" CdmEntityContainer="supermerkEntities">
+          <EntitySetMapping Name="productos">
+            <EntityTypeMapping TypeName="supermerkModel.productos">
+              <MappingFragment StoreEntitySet="productos">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="nombre_Producto" ColumnName="nombre_Producto" />
+                <ScalarProperty Name="descripcion_Producto" ColumnName="descripcion_Producto" />
+                <ScalarProperty Name="unid_Medida" ColumnName="unid_Medida" />
+                <ScalarProperty Name="peso" ColumnName="peso" />
+                <ScalarProperty Name="precio" ColumnName="precio" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram DiagramId="3ed9fb90fecb4f5a890b067fff18c471" Name="Diagram1">
+        <EntityTypeShape EntityType="supermerkModel.productos" Width="2.625" PointX="2.125" PointY="2.125" IsExpanded="true" />
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

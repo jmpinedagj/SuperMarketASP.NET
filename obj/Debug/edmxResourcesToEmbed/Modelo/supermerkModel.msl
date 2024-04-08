@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="supermerkModelStoreContainer" CdmEntityContainer="supermerkEntities">
+    <EntitySetMapping Name="productos">
+      <EntityTypeMapping TypeName="supermerkModel.productos">
+        <MappingFragment StoreEntitySet="productos">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="nombre_Producto" ColumnName="nombre_Producto" />
+          <ScalarProperty Name="descripcion_Producto" ColumnName="descripcion_Producto" />
+          <ScalarProperty Name="unid_Medida" ColumnName="unid_Medida" />
+          <ScalarProperty Name="peso" ColumnName="peso" />
+          <ScalarProperty Name="precio" ColumnName="precio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

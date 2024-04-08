@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jhors\\Desktop\\ejercicioCrud\\ejercicioCrud\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{308A9B88-AD09-4EFD-89F3-58CDC7F3BFC8}|ejercicioCrud.csproj|c:\\users\\jhors\\desktop\\ejerciciocrud\\ejerciciocrud\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{308A9B88-AD09-4EFD-89F3-58CDC7F3BFC8}|ejercicioCrud.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308A9B88-AD09-4EFD-89F3-58CDC7F3BFC8}|ejercicioCrud.csproj|c:\\users\\jhors\\desktop\\ejerciciocrud\\ejerciciocrud\\modelo\\supermerkmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{308A9B88-AD09-4EFD-89F3-58CDC7F3BFC8}|ejercicioCrud.csproj|solutionrelative:modelo\\supermerkmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308A9B88-AD09-4EFD-89F3-58CDC7F3BFC8}|ejercicioCrud.csproj|c:\\users\\jhors\\desktop\\ejerciciocrud\\ejerciciocrud\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308A9B88-AD09-4EFD-89F3-58CDC7F3BFC8}|ejercicioCrud.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\jhors\\Desktop\\ejercicioCrud\\ejercicioCrud\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\jhors\\Desktop\\ejercicioCrud\\ejercicioCrud\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAOYAAAAAAAAAAAAhwCcBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T04:17:49.832Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "supermerkModel.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\jhors\\Desktop\\ejercicioCrud\\ejercicioCrud\\Modelo\\supermerkModel.edmx",
+              "RelativeDocumentMoniker": "Modelo\\supermerkModel.edmx",
+              "ToolTip": "C:\\Users\\jhors\\Desktop\\ejercicioCrud\\ejercicioCrud\\Modelo\\supermerkModel.edmx [Diagram1]",
+              "RelativeToolTip": "Modelo\\supermerkModel.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-04-08T03:35:21.287Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\jhors\\Desktop\\ejercicioCrud\\ejercicioCrud\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\jhors\\Desktop\\ejercicioCrud\\ejercicioCrud\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T03:33:11.905Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
